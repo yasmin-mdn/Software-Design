@@ -1,0 +1,31 @@
+.card-in-progress {
+  @apply bg-blue-400;
+}
+
+.card-complete {
+  @apply bg-green-400;
+}
+
+.card-open {
+  @apply bg-gray-400;
+}
+
+.card-in-review {
+  @apply bg-orange-400;
+}
+
+.card-in-progress-text {
+  @apply !text-blue-400;
+}
+
+.card-complete-text {
+  @apply !text-green-400;
+}
+
+.card-open-text {
+  @apply !text-gray-400;
+}
+
+.card-in-review-text {
+  @apply !text-orange-400;
+}
